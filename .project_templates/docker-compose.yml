@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  {{PROJECT_NAME}}:
+    build: {{PROJECT_NAME}}
+    container_name: {{PROJECT_NAME}}
+    ports:
+      - "3201:5000"
+    volumes:
+      # 配置
+      - /mnt/{{PROJECT_NAME}}:/app
+    restart: unless-stopped
