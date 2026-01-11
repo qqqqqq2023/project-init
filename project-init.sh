@@ -10,7 +10,7 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # 模板目录
-TEMPLATE_DIR="$HOME/project-init/.project_templates"
+TEMPLATE_DIR="/opt/project/project-init/.project_templates"
 
 # 显示帮助
 show_help() {
